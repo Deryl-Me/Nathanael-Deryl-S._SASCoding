@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindari Laser (Laser Dodge)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>💥 Hindari Laser 🔫</h1>
+    </header>
+
+    <div id="game-container">
+        <div id="message-area">
+            <h2 id="game-message">Pilih Mode Permainan</h2>
+            <div id="mode-buttons">
+                <button id="start-button" data-mode="normal">Mulai Game (Normal)</button>
+                <button id="hard-mode-button" data-mode="hard">Mode Sulit 🔥</button>
+            </div>
+        </div>
+
+        <div id="game-board">
+            <div class="launcher" id="launcher-1"></div>
+            <div class="launcher" id="launcher-2"></div>
+            <div class="launcher" id="launcher-3"></div>
+            <div class="launcher" id="launcher-4"></div>
+            <div class="launcher" id="launcher-5"></div>
+            <div class="launcher" id="launcher-6"></div> 
+            <div class="launcher" id="launcher-7"></div> 
+            <div class="launcher" id="launcher-8"></div> 
+            
+            <div id="player"></div>
+        </div>
+        
+        <div id="info-bar">
+            <p>Ronde: <span id="round-display">1 / 3</span></p>
+            <p>Status: <span id="status-display">Siap</span></p>
+            <p>Waktu Ronde: <span id="timer-display">0</span> detik</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
